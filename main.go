@@ -1,13 +1,7 @@
 package main
 
-import (
-	"fmt"
-
-	"github.com/gin-gonic/gin"
-)
+import "fmt"
 
 func main() {
 	fmt.Println("test")
-
-	r := gin.Default()
 }
